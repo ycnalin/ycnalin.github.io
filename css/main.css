@@ -493,12 +493,12 @@ pre,
 }
 pre,
 code {
-  font-family: consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
+  font-family: 'consola', consolas, Menlo, "PingFang SC", "Microsoft YaHei", monospace;
 }
 code {
   padding: 2px 4px;
   word-wrap: break-word;
-  color: #555;
+  color: #d05;
   background: #eee;
   border-radius: 3px;
   font-size: 14px;
@@ -1804,6 +1804,7 @@ pre .javascript .function {
 .links-of-author .exturl {
   display: inline-block;
   vertical-align: middle;
+  text-align: center;
   margin-right: 10px;
   margin-bottom: 10px;
   border-bottom-color: #555;
@@ -1813,12 +1814,13 @@ pre .javascript .function {
 .links-of-author .exturl:before {
   display: inline-block;
   vertical-align: middle;
+  text-align: center;
   margin-right: 3px;
   content: " ";
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #beddda;
+  background: #c6daf0;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2491,7 +2493,7 @@ ul.breadcrumb li+li:last-child {
 .header {
   position: relative;
   margin: 0 auto;
-  width: 80%;
+  width: 960px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .header {
@@ -2551,7 +2553,7 @@ ul.breadcrumb li+li:last-child {
   }
 }
 .container .main-inner {
-  width: 80%;
+  width: 960px;
 }
 @media (min-width: 768px) and (max-width: 991px) {
   .container .main-inner {
@@ -2567,7 +2569,7 @@ ul.breadcrumb li+li:last-child {
   float: right;
   box-sizing: border-box;
   padding: 40px;
-  width: calc(100% - 260px);
+  width: 700px;
   background: #fff;
   min-height: 700px;
   box-shadow: initial;
