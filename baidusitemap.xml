@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+
+    
+  <url>
+    <loc>http://yclin.cn/2017/11/21/git-usage/</loc>
+    <lastmod>2018-07-11T10:49:35.564Z</lastmod>
+    <data>
+        <display>
+        <title>Git常用命令</title>
+        <pubTime>2017-11-21T09:52:19.000Z</pubTime>
+        
+        <tag>Git</tag>
+         
+         
+           
+             
+              <breadCrumb title="程序员笔记" url="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yclin.cn/2018/03/28/secureCRT/</loc>
+    <lastmod>2018-07-11T10:48:14.052Z</lastmod>
+    <data>
+        <display>
+        <title>使用SecureCRT快速的上传和下载文件</title>
+        <pubTime>2018-03-28T08:26:07.000Z</pubTime>
+        
+        <tag>SecureCRT</tag>
+         
+         
+           
+             
+              <breadCrumb title="程序员笔记" url="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yclin.cn/2018/04/01/C-%E5%85%A5%E9%97%A8%E5%BB%BA%E8%AE%AE/</loc>
+    <lastmod>2018-07-11T10:48:14.052Z</lastmod>
+    <data>
+        <display>
+        <title>C++入门建议</title>
+        <pubTime>2018-04-01T04:35:51.000Z</pubTime>
+        
+        <tag>C++</tag>
+         
+        <tag>编程语言</tag>
+         
+         
+           
+             
+              <breadCrumb title="程序员笔记" url="http://yoursite.com/categories/%E7%A8%8B%E5%BA%8F%E5%91%98%E7%AC%94%E8%AE%B0/"/>
+          
+        </display>
+    </data>
+    </url>
+
+</urlset>
