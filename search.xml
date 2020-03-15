@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title><![CDATA[C++入门建议]]></title>
-    <url>%2F2018%2F04%2F01%2FC-%E5%85%A5%E9%97%A8%E5%BB%BA%E8%AE%AE%2F</url>
-    <content type="text"><![CDATA[两点说明：本博客仅是针对初学者的入门建议，不喜勿喷本博客适合具备C语言基础的人学习C++参考 工欲善其事，必先利其器我使用的C++ IDE主要是Visual Studio, 同时安装了Jetbrains公司的ReSharper插件，来增强VS2015的代码协助以及自动代码重构功能。另外我常用的代码阅读器是Sublime Text3。补充一下，只要你有一个教育邮箱(edu.cn)，就可以免费使用Jetbrains公司的所有产品，这点还是非常良心的，我就是其中收益者之一。 书籍选择学习C++我一开始使用的书籍并是不C++ Primer，但是从过来人的角度看，对于具备C语言基础的人来说，入门直接看这本书还是挺合适的。需要说明的是，强烈不建议按顺序阅读这本书，阅读的顺序可以是:C++基础知识&gt;类相关章节&gt;标准模板库相关章节&gt;异常处理与动态内存&gt;模板与泛型编程&gt;其他主题。我使用过的其他资料： 进阶书籍 Effective C++ 进阶书籍 设计模式：可复用面向对象软件的基础 参考手册 C++ reference 学习方法反复练习学习任何一门语言都需要大量实践，学习C++当然也应如此。推荐的学习方法是每学习完一个章节，一定要去做几道题巩固一下，重要的事情说三遍。如果参考书没有习题或者题量不够，可以考虑去Leetcode找对应的题目练习，注意难度选择easy，不要为难自己。 重点突破对初学者而言，学习重点应该放在C++的面向对象特性，正确理解什么是面向对象，面向对象程序如何编写，切忌将面向对象程序当做算法题用面向过程的思维理解，这样是写不出面向对象的程序的。 学习STLC++标准模板库[STL]是C++标准库的一部分，其中的容器库非常实用，建议掌握。学会使用STL之后写程序就可以将注意力集中在面向对象以及算法设计，将数据结构的实现交给STL。这部分也需要勤加练习，各大编程网站(如Leetcode、牛客网)是一个很好的平台。]]></content>
-      <categories>
-        <category>程序员笔记</category>
-      </categories>
-      <tags>
-        <tag>C++</tag>
-        <tag>编程语言</tag>
-      </tags>
-  </entry>
-  <entry>
     <title><![CDATA[使用SecureCRT快速的上传和下载文件]]></title>
     <url>%2F2018%2F03%2F28%2FsecureCRT%2F</url>
     <content type="text"><![CDATA[SecureCRT是一款支持SSH（SSH1和SSH2）的终端仿真程序，简单地说是Windows下登录UNIX或Linux服务器主机的软件。配置好SecureCRT软件后，使用Linux的sz、rz命令可以很方便的在服务器端和客户端之间传递数据。SecureCRT支持Mac、Linux、IOS三个平台，使用非常方便。我使用的是Windows版的SecureCRT，版本是8.1.0。 使用步骤1、客户端安装SecureCRT下载安装请转到此处 2、Linux端安装lrzsz程序1sudo apt install lrzsz 3、设置上传和下载文件默认路径打开SecureCRT：OPTIONS→Session Options→X/Y/Zmodem 4、传递文件客户端发送文件至服务器端：客户端 → 服务器端1rz #客户端输入rz后敲击Enter会自动弹出文件选择框 服务器端发送文件之客户端： 服务器端→客户端1sz [options] file #例如 sz -i ../example.txt 传输大文件时要特别注意：单独用rz会有两个问题：上传中断、上传文件变化（md5不同），解决办法是上传是用rz -be，并且去掉弹出的对话框中“Upload files as ASCII”前的勾选。rz -be的含义是使用二进制流传输，并跳过所有控制字符。详情请查看帮助rz --help 传输协议简介在SecureCRT下的传输协议主要有Xmodem、Ymodem、Zmodem 3种。Xmodem是在1977年由Ward christensen创建的用于调制解调器纠错的协议，是一种简单文件传输协议, 具有流量控制功能。Ymodem协议和Zmodem均是对Xmodem协议的改进。 其中ZMODEM是最有效的一个XMODEM版本，采用了串流式传输方式，传输速度较快，而且还具有自动改变区段大小和断点续传、快速错误侦测等功能。这是目前最流行的文件传输协议。]]></content>
